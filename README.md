@@ -32,7 +32,10 @@
 ```bash
 sh compile.sh
 ```
-
+注：输入读取使用了`readline`库，如果在系统中没有自带，请安装
+```bash
+sudo apt-get install libreadline6
+```
 ## 使用
 
 在终端中运行可执行文件后，很快会见到一个哲♂学符号（当然，如果是以root用户的身份执行的，则会见到一个♀），如
