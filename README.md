@@ -47,6 +47,11 @@ sudo apt-get install libreadline6
 
 **警告：如果不是在Linux环境使用，那么有可能会造成出现一堆奇怪的字符。这是[`color.h`](include/color.h)的锅。我做的时候，为了好看，给文字加上了Linux特有的字体颜色前缀。为了保留最佳风味，请在Linux环境下食用。**
 
+如果有输入文件，如
+```bash
+./gsh script.gsh
+```
+其中`script.gsh`为输入的文件名（当然不一定要叫这个名字），那么程序就会按行执行指令。注意，这只是批量执行，文件里只有是合法输入的部分有效。
 ### 操作
 
 本shell的基本操作与bash类似，即
